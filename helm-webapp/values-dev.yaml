@@ -1,9 +1,4 @@
-
-<<<<<<< HEAD
 replicas: 4
-=======
-replicas: 2
->>>>>>> master
 
 configmap:
   data:
