@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mykustom-mapv1
+  namespace: dev
+  labels:
+    app: mywebapp
+data:
+  index.html: |
+    <html>
+    <body>
+    <h1>Hello World. Version: 1</h1>
+    </body>
+    </html>
