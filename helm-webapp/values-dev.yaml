@@ -1,4 +1,4 @@
-replicas: 7
+replicas: 4
 
 configmap:
   data:
